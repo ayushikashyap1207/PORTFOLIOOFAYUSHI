@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayushi | Portfolio</title>
+    <meta name="description" content="Professional portfolio of Ayushi, a Web Developer and aspiring  Machine Learning (ML) Developer specializing in creating beautiful digital experiences." />
+    <meta name="author" content="Ayushi" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Ayushi | Web Developer &  Machine Learning (ML) Developer" />
+    <meta property="og:description" content="Professional portfolio of Ayushi, a Web Developer and aspiring  Machine Learning (ML) Developer specializing in creating beautiful digital experiences." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+      <div class="container">
+        <a href="#home" class="navbar-logo">
+          Portfolio<span class="text-primary">.</span>
+        </a>
+        
+        <div class="navbar-links" id="navbar-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text animate-fade-in" style="animation-delay: 0.3s;">
+            <span class="text-primary hero-tagline">Hello, I'm</span>
+            <h1 class="hero-heading">Ayushi</h1>
+            <p class="hero-subtitle">Web Developer & Machine Learning (ML) Developer</p>
+            <p class="hero-description">
+                I’m a passionate Front-End and Machine Learning developer currently pursuing my BTech in Computer Science.
+                 I love building user-friendly web interfaces and crafting intelligent ML models that solve real-world problems. I’m constantly exploring the intersection of design and data — turning ideas into sleek, smart applications.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#about" class="btn btn-outline">About Me</a>
+            </div>
+          </div>
+          
+          <div class="hero-image animate-fade-in" style="animation-delay: 0.6s;">
+            <div class="profile-image-wrapper">
+              <div class="profile-image-glow"></div>
+              <div class="profile-image">
+                <img src="./assests/photo_2023-08-02 11.32.16 copy.jpeg" alt="Profile">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="scroll-indicator">
+          <a href="#about" class="scroll-arrow">
+            <i data-lucide="chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        
+        <div class="about-content">
+          <div class="about-text">
+            <h3 class="about-subtitle">Who I Am</h3>
+            <p class="about-paragraph">
+              I'm a curious and driven <span class="highlight">Front-End & Machine Learning Developer</span> with a passion for building sleek interfaces and intelligent systems. I specialize in creating responsive web apps and applying data-driven solutions to real-world problems.
+            </p>
+            <p class="about-paragraph">
+              My journey began with simple websites and evolved into combining clean UI design with powerful ML models. I love bringing ideas to life — from interactive dashboards to smart applications that learn and adapt.
+            </p>
+            <p class="about-paragraph">
+              When I’m not coding, you’ll find me exploring new ML papers, sketching UI ideas, or binge-watching tech talks with a cup of coffee.
+            </p>
+            
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="user"></i>
+                </div>
+                <div class="info-content">
+                  <p class="info-label">Name</p>
+                  <p class="info-value">Ayushi</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div class="info-content">
+                  <p class="info-label">Email</p>
+                  <p class="info-value">toayushikashyap@gmail.com</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="code"></i>
+                </div>
+                <div class="info-content">
+                  <p class="info-label">Role</p>
+                  <p class="info-value">Frontend & ML Developer</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="image"></i>
+                </div>
+                <div class="info-content">
+                  <p class="info-label">Experience</p>
+                  <p class="info-value">Fresher</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-skills">
+            <h3 class="about-subtitle">My Skills</h3>
+            <div class="skills-list">
+              
+              <div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              
+              <div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">HTML/CSS</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              
+              <div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              
+              <div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+          
+              <div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">Machine Learning</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              
+              <!--<div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">TensorFlow / PyTorch</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              
+              <div class="skill">
+                <div class="skill-header">
+                  <span class="skill-name">UI/UX Design</span>
+                  <span class="skill-percentage">65%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 65%"></div>
+                </div>
+              </div>
+            -->
+            </div>
+          </div>
+              </div>
+            </div>
+            
+            <div class="education-experience">
+              <h3 class="about-subtitle">Education & Experience</h3>
+              <div class="timeline">
+                
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <h4 class="timeline-title">BTech in Computer Science  </h4>
+                  <p class="timeline-subtitle">Vellore Institute of Technology Bhopal | 2023 - 2027</p>
+                  <p class="timeline-description"> Specilization in AI&ML<br>CGPA : 8.56 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+      <div class="container">
+        <h2 class="section-heading">My Projects</h2>
+        <p class="section-description">
+          Here are some of my recent projects. Each project is a unique challenge
+          that helped me grow as a developer.
+        </p>
+        
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="./assests/rainy day.jpg" alt="AquaPredict - Rainfall Prediction" loading="lazy">
+            <div class="project-overlay">
+              <h3 class="project-title">AquaPredict</h3>
+              <p class="project-description">
+                A machine learning model that predicts rainfall with 90% accuracy using advanced ensemble techniques and optimized feature engineering.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Scikit-learn</span>
+                <span class="project-tag">XGBoost</span>
+                <span class="project-tag">CatBoost</span>
+                <span class="project-tag">Pandas</span>
+                <span class="project-tag">NumPy</span>
+              </div>
+              <div class="project-links">
+                <a href="https://ayushikashyap1207.github.io/PORTFOLIO/" class="project-link" target="_blank">
+                  <i data-lucide="external-link"></i> Live
+                </a>
+                <a href="https://github.com/ayushikashyap1207" class="project-link" target="_blank">
+                  <i data-lucide="github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assests/Red and Gray Living Room in 2024 | Living room red, Grey and red living room, Living room grey.jpg" alt="Movie Recommendation System" loading="lazy">
+            <div class="project-overlay">
+              <h3 class="project-title">Movie Recommendation System</h3>
+              <p class="project-description">
+                A content-based movie recommendation engine that suggests similar movies based on user selection.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Pandas</span>
+                <span class="project-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a href="https://ayushikashyap1207.github.io/PORTFOLIO/" class="project-link" target="_blank">
+                  <i data-lucide="external-link"></i> Live
+                </a>
+                <a href="https://github.com/ayushikashyap1207" class="project-link" target="_blank">
+                  <i data-lucide="github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="view-all-projects">
+          <a href="#" class="btn btn-outline-primary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <h2 class="section-heading">Get In Touch</h2>
+        <p class="section-description">
+          Have a project in mind or want to discuss something? Feel free to reach out!
+        </p>
+        
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Contact Information</h3>
+            <p class="contact-paragraph">
+              Feel free to contact me directly through any of the following channels or by using the form.
+            </p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div class="contact-details">
+                  <h4 class="contact-method-title">Email</h4>
+                  <a href="mailto:toayushikashyap@gmail.com" class="contact-method-value">toayushikashyap@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4 class="contact-method-title">Phone</h4>
+                  <a href="tel:+91123456789" class="contact-method-value">+91 123456789</a>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div class="contact-details">
+                  <h4 class="contact-method-title">Location</h4>
+                  <span class="contact-method-value">Bhopal , Madhya Pradesh</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <h4 class="social-links-title">Follow Me</h4>
+              <div class="social-icons">
+                <a href="https://github.com/ayushikashyap1207" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                  <i data-lucide="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ayushi1207/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                  <i data-lucide="linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <h3 class="contact-subtitle">Send a Message</h3>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  placeholder="Your Name" 
+                  required 
+                  class="form-input"
+                >
+              </div>
+              
+              <div class="form-group">
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  placeholder="Your Email" 
+                  required 
+                  class="form-input"
+                >
+              </div>
+              
+              <div class="form-group">
+                <input 
+                  type="text" 
+                  id="subject" 
+                  name="subject" 
+                  placeholder="Subject" 
+                  required 
+                  class="form-input"
+                >
+              </div>
+              
+              <div class="form-group">
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  placeholder="Your Message" 
+                  required 
+                  rows="5" 
+                  class="form-textarea"
+                ></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h2 class="footer-logo">
+              Portfolio<span class="text-primary">.</span>
+            </h2>
+            <p class="footer-description">
+              Crafting beautiful digital experiences with modern web technologies.
+            </p>
+          </div>
+          
+          <div class="footer-social">
+            <div class="footer-social-icons">
+              <a 
+                href="https://github.com/ayushikashyap1207" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="footer-social-icon"
+                aria-label="GitHub"
+              >
+                <i data-lucide="github"></i>
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/ayushi1207/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="footer-social-icon"
+                aria-label="LinkedIn"
+              >
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a 
+                href="mailto:toayushikashyap@gmail.com" 
+                class="footer-social-icon"
+                aria-label="Email"
+                >
+                <i data-lucide="mail"></i>
+              </a>
+            </div>
+            
+            <p class="copyright">
+              &copy; <span id="current-year"></span> Ayushi. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+      <i data-lucide="chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
